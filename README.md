@@ -9,11 +9,10 @@ pip install tree-sitter tree-sitter-languages
 
 
 
-
+確認安裝成功
 python -c "import llama_index; print('llama_index OK')"
 python -c "import chromadb; print('chromadb OK')"
 
 
-pip uninstall aider-chat
 
 
