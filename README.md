@@ -5,7 +5,7 @@ pip install llama-index llama-index-llms-ollama llama-index-embeddings-ollama ch
 ollama pull nomic-embed-text
 
 步驟 3：確認 tree-sitter 的 C# 語法套件
-pip install tree-sitter tree-sitter-languages
+pip install tree-sitter tree-sitter-language-pack
 
 
 
