@@ -12,5 +12,5 @@ python -c "import chromadb; print('chromadb OK')"
 
 $env:OLLAMA_API_BASE = "http://localhost:11434"
 cd "你的專案路徑"
-aider --model ollama/qwen2.5:3b-instruct-q4_K_M --no-git --map-tokens 0
+aider --model ollama/qwen2.5:3b-instruct-q4_K_M --no-git --map-tokens 0 --assistant-output-color "white"
 
