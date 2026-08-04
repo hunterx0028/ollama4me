@@ -11,5 +11,5 @@ python -c "import llama_index; print('llama_index OK')"
 python -c "import chromadb; print('chromadb OK')"
 
 
-
+python -c "import time,ollama; s=time.time(); r=ollama.embeddings(model='nomic-embed-text', prompt='這是一段測試文字'); print(f'耗時: {time.time()-s:.2f} 秒')"
 
